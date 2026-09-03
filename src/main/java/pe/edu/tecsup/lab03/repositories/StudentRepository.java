@@ -1,7 +1,8 @@
-package pe.edu.tecsup.lab03.controllers;
+package pe.edu.tecsup.lab03.repositories;
 
-public class StudentController {
-    public void procesarDatos() {
-        System.out.println("Controlador StudentController activo");
+public class StudentRepository {
+
+    public String getStatus() {
+        return "Repositorio Inicializado Correctamente";
     }
 }
